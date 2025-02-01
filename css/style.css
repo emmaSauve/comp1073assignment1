@@ -1,0 +1,47 @@
+
+html{
+   
+     background-image: linear-gradient(to right, rgb(126, 204, 246) , rgb(222, 113, 188));
+
+}
+/* give the page a background colour gradient*/
+
+/* apply google fonts to the page */
+body {
+
+    font-family: "Fontdiner Swanky", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    margin-right: 1em;
+    background-color: rgb(251, 219, 59);
+    border: solid 3px rgb(114, 31, 149);
+    text-align: center;
+    color: rgb(114, 31, 149);
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+    color:rgb(37, 61, 181);
+}
+
+/* different font for the buttons */
+#noun1, #verb, #adjective, #noun2, #setting, #playback, #random, #reset{
+    font-family: "Englebert", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+}
+
+
+
+/* display stoyr is box with a transparent white background for easier viewing */
+#story{
+    font-size: 23px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(114, 31, 149);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
